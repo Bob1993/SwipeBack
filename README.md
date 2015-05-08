@@ -39,7 +39,7 @@ SwipeBackActivity is a base activity for using this library more easier.This Act
 ![image](Images/swipe_back_activity.gif)
 
 ```
-public class CommonActivity extends SwipeBackActivity {
+public class CommonActivity extends SwipeBackActivity {//Method 1
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class CommonActivity extends SwipeBackActivity {
 }
 ```
 
-###Layout and activity theme.
+###Layout and activity theme.  method 2
 SwipeBackLayout must contains only one direct child.
 
 ```
